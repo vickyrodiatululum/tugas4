@@ -1,0 +1,186 @@
+.container{
+    
+}
+.tiga{
+    background: #31CEFF;
+    position: absolute;
+    width: 1440px;
+    height: 513px;
+    left: 0px;
+    top: 0px;
+
+    
+}
+.tiga img{
+    position: absolute;
+    width: 596px;
+    height: 376px;
+    left: 26px;
+    top: 52px;
+
+    border-image: url(retangle.png);
+    border-radius: 24px;
+    transform: matrix(1, -0.05, 0.05, 1, 0, 0);
+}
+.tiga h3{
+    text-transform: uppercase;
+    position: absolute;
+    width: 578px;
+    height: 119px;
+    left: 725px;
+    top: 149px;
+    
+    font-family:  sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    color: white;
+}
+.tiga p{
+    position: absolute;
+    width: 655px;
+    height: 71px;
+    left: 725px;
+    top: 292px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+}
+
+.empat{
+    position: absolute;
+    width: 1440px;
+    height: 513px;
+    /* border: #0A0F18 1px solid; */
+    top: 580px;
+    left: 0px;
+}
+.empat .event h2 {
+    text-transform: capitalize;
+    border-left: #31CEFF 5px solid;
+    padding-left: 10px;
+    position: absolute;
+    width: 114px;
+    height: 60px;
+    left: 60px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    /* Dark */
+
+    color: #0A0F18;
+}
+
+.empat .event p {
+    position: absolute;
+   
+    width: 604px;
+    height: 48px;
+    left: 60px;
+    top: 100px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.01em;
+
+    /* dark light */
+
+    color: #969696;
+}
+
+
+.empat .card {
+    position: absolute;
+    
+    display: flex;
+    width: 1300px;
+    height: 225px;
+    left: 60px;
+    top: 200px;
+    /* border: #0A0F18 solid 1px; */
+    
+       
+}
+.empat .card .frame{
+    position: absolute;
+    display: flex;
+    /* border: #0A0F18 1px solid; */
+    width: 380px;
+    height: 225px;
+    padding: 10px;
+    background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+
+}
+
+.empat .card .frame h2 {
+    position: absolute;
+    width: 376px;
+    height: 72px;
+    top: 20px;
+    left: 20px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+
+    /* Dark */
+
+    color: #0A0F18;
+
+}
+.empat .card .frame p {
+    position: absolute;
+    width: 108px;
+    height: 21px;
+    bottom: 20px;
+    left: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    /* dark light */
+
+    color: #969696;
+}
+.empat .card .frame img{
+    position: absolute;
+    width: 140px;
+    height: auto;
+    bottom: 0px;
+    right: 0px;    
+}
